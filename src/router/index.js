@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Mlbb from "@/views/Mlbb";
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/mlbb',
+    name: 'Mlbb',
+    component: Mlbb
   },
   {
     path: '/about',
